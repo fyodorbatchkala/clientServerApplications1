@@ -1,7 +1,8 @@
 import sys
 import socket
 import json
-from common.variables import *
+from common.variables import DEFAULT_PORT, DEFAULT_IP_ADDRESS, MAX_CONNECTIONS, ENCODING, ACTION,\
+    TIME, USER, ACCOUNT_NAME, PRESENCE, RESPONSE, ERROR, RESPONDEFAULT_IP_ADDRESSSE
 from common.utils import get_message, send_message
 
 
@@ -43,7 +44,7 @@ def main():
     transport = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     transport.bind((listen_address, listen_port))
 
-    transport.listen(NAX_CONNECTIONS)
+    transport.listen(MAX_CONNECTIONS)
 
     while True:
         client, client_address = transport.accept()

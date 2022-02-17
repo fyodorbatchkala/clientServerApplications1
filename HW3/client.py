@@ -1,8 +1,9 @@
 import socket
 import sys
 import json
-from common.variables import *
-from common.utils import *
+from common.variables import DEFAULT_PORT, DEFAULT_IP_ADDRESS, MAX_CONNECTIONS, MAX_PACKAGE_LENGTH, ENCODING, ACTION,\
+    TIME, USER, ACCOUNT_NAME, PRESENCE, RESPONSE, ERROR, RESPONDEFAULT_IP_ADDRESSSE
+from common.utils import get_message, send_message
 import time
 
 
