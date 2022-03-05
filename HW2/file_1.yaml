@@ -1,0 +1,11 @@
+items:
+- phone
+- scanner
+- printer
+- computer
+items_price:
+  computer: 1500 рублей
+  phone: 100 рублей
+  printer: 20 рублей
+  scanner: 150 рублей
+items_quantity: 4
