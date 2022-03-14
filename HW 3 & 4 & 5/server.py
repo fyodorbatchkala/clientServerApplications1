@@ -78,7 +78,7 @@ def main():
             LOGGER.error(f'Не удалось декодировать Json строку, '
                          f'полученную от клиента {client_address}. Соединение закрывается.')
             client.close()
-        except IncorrectDataRecivedError:
+        except IncorrectDataReceivedError:
             LOGGER.error(f'От клиента {client_address} приняты некорректные данные. '
                          f'Соединение закрывается.')
             client.close()
