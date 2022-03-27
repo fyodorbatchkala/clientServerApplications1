@@ -7,13 +7,14 @@ MAX_PACKAGE_LENGTH = 1024
 ENCODING = 'utf-8'
 
 LOGGING_LEVEL = logging.DEBUG
-
 ACTION = 'action'
 TIME = 'time'
 USER = 'user'
 ACCOUNT_NAME = 'account_name'
+SENDER = 'sender'
 
 PRESENCE = 'presence'
 RESPONSE = 'response'
 ERROR = 'error'
-RESPONDEFAULT_IP_ADDRESSSE = 'respondefault_ip_addressse'
+MESSAGE = 'message'
+MESSAGE_TEXT = 'mess_text'

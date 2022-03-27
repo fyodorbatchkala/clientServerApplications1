@@ -1,10 +1,10 @@
 import json
 import sys
-from common.variables import MAX_PACKAGE_LENGTH, ENCODING
+from project_folder.common.variables import MAX_PACKAGE_LENGTH, ENCODING
 
 sys.path.append('../')
-from decos import log
-from errors import IncorrectDataReceivedError, NonDictInputError
+from project_folder.decos import log
+from project_folder.errors import IncorrectDataReceivedError, NonDictInputError
 
 
 @log
